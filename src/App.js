@@ -12,19 +12,15 @@ const App = () => {
   const [height, setHeight] = useState(1200);
   useEffect(() => {
     const handleResize = () => {
+      console.log(window.innerWidth)
       setWidth(window.innerWidth);
       setHeight(window.innerHeight)
     };
 
+    document.addEventListener('DOMContentLoaded', handleResize);
+
     window.addEventListener("resize", handleResize);
     window.addEventListener('load' , handleResize)
-
-    // const value = document.querySelector(':root');
-    // const computed = getComputedStyle(value);
-    // console.log(computed.getPropertyValue('--const-color'))
-    // // computed.setProperty('--const-color' , 'red')
-    // value.style.setProperty('--const-color' , 'red')
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };

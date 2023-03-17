@@ -249,16 +249,67 @@ selector {
   }
 }
 
+@media only screen and (max-width: 531px ) {
+  .q-navbar{
+   left: 300px !important;
+  }
+  .about-container{
+    font-size: 3rem !important;
+  }
+  .about-points{
+    font-size: .8rem !important;
+  }
+  .about-me{
+    font-size: .8rem !important;
+    font-weight: 100 !important;
+    /* margin-bottom: 20px !important; */
+  }
+}
+
+@media only screen and (max-width: 514px ) {
+  .q-navbar{
+   left: 280px !important;
+  }
+}
+
+@media only screen and (max-width: 488px ) {
+  .q-navbar{
+   left: 260px !important;
+  }
+}
+
+@media only screen and (max-width: 468px ) {
+  .q-navbar{
+   left: 240px !important;
+  }
+}
+
+@media only screen and (max-width: 434px ) {
+  .q-navbar{
+   left: 220px !important;
+   /* margin-right: 200px !; */
+   /* width: 220px !important; */
+  }
+}
+
 
 
 /*  */
 
+.main-container{
+   margin-left: -7px;
+}
+
 /* Navbar ITEMS-------------------------------------------- */
 .nav-side{
   background-color: #333;
-  height: 110vh;
-  width: 18vw;
+  height: 113.7vh;
+  margin-top: -10px;
+  /* margin-left: -8px; */
+  width: 20vw;
   position: fixed;
+  box-sizing: border-box;
+  /* z-index: -1000; */
 }
 .nav-items {
   display: flex;
@@ -269,8 +320,7 @@ selector {
 .nav-items > a {
   color: var(--nav-head-color);
   background-color: #333;
-  height: 18px;
-  padding: 19px;
+  padding: 20px;
   text-decoration: none;
   font-size: 1.2rem;
   border-bottom: 0.1px solid #3b3b3b;
@@ -315,7 +365,7 @@ selector {
 
 .profile{
   background-color:#212121;
-  width: 18vw;  
+  width: 20vw;  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -372,7 +422,7 @@ selector {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--const-color);
-  height: 100vh;
+  height: 94.9vh;
 }
 
 .first-name{

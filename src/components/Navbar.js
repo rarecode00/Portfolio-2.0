@@ -87,7 +87,7 @@ const Navbar = ({width}) => {
         </div>
       ) : (
         // Navbar changes on changes the width of webpage (Media queries)
-        <>
+        <div className="q-nav">
           <div className="q-name">Krishna Sharma</div>
           <div>
           <div className="q-navbar">
@@ -95,7 +95,7 @@ const Navbar = ({width}) => {
               to="/"
               className={location.pathname === "/" ? "q-border" : "br-none"}
             >
-             {width <= 794 ? <i class="fa-solid fa-house"></i> : 'About'}
+             {width <= 794 ? <i className="fa-solid fa-house"></i> : 'About'}
             </Link>
             <Link
               to="/experience"
@@ -103,7 +103,7 @@ const Navbar = ({width}) => {
                 location.pathname === "/experience" ? "q-border" : "br-none"
               }
             >
-              {width <= 794 ? <i class="fa-solid fa-code-branch"></i> : 'Experience'}
+              {width <= 794 ? <i className="fa-solid fa-code-branch"></i> : 'Experience'}
             </Link>
             <Link
               to="/education"
@@ -111,13 +111,13 @@ const Navbar = ({width}) => {
                 location.pathname === "/education" ? "q-border" : "br-none"
               }
             >
-              {width <= 794 ? <i class="fa-solid fa-graduation-cap"></i> : 'Education'}
+              {width <= 794 ? <i className="fa-solid fa-graduation-cap"></i> : 'Education'}
             </Link>
             <Link
               to="/skills"
               className={location.pathname === "/skills" ? "q-border" : "br-none"}
             >
-              {width <= 794 ? <i class="fa-solid fa-gear"></i> : 'Skills'}
+              {width <= 794 ? <i className="fa-solid fa-gear"></i> : 'Skills'}
             </Link>
             <Link
               to="/interest"
@@ -125,11 +125,11 @@ const Navbar = ({width}) => {
                 location.pathname === "/interest" ? "q-border" : "br-none"
               }
             >
-              {width <= 794 ? <i class="fa-sharp fa-solid fa-heart"></i> : 'Interest'}
+              {width <= 794 ? <i className="fa-sharp fa-solid fa-heart"></i> : 'Interest'}
             </Link>
           </div>
           </div>
-        </>
+        </div>
       )}
     </>
   );
