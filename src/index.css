@@ -46,23 +46,12 @@ selector {
 
 :root{
   --nav-head-color: white;
-  --const-color: orangered;
+  --const-color: #ff4100;
 }
 
 /* Media Query */
 
 @media only screen and (max-width: 1176px) {
-/* 
-  .nav-side{
-    position: absolute !important;
-    width: 100vw !important;
-    z-index: 10000 !important;
-  }
-
-  .nav-items{
-    flex-direction: row !important;
-  } */
-
   .container{
     left: 0px !important;
     width: 100vw !important;
@@ -78,6 +67,7 @@ selector {
     height: 60px;
     z-index: 100;
   }
+
 
   .q-name{
      color: white;
@@ -241,6 +231,10 @@ selector {
   .q-navbar{
    left: 340px !important;
   }
+
+  .social-profiles{
+     top: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 557px ) {
@@ -275,6 +269,22 @@ selector {
 @media only screen and (max-width: 488px ) {
   .q-navbar{
    left: 260px !important;
+  }
+
+  .interest-text {
+    font-size: 1rem !important;
+  }
+
+  .social-profiles{
+     top: 0px !important;
+  }
+
+  .social-profiles a{
+     font-size: 2rem !important;
+  }
+
+  .social-profiles button{
+     font-size: 1rem !important;
   }
 }
 
@@ -438,6 +448,7 @@ selector {
   margin-left: -19px;
   margin-top: 30px;
   font-size: 1.3rem;
+  line-height: 20px;
 }
 
 .about-points > li{
@@ -445,7 +456,7 @@ selector {
 }
 
 .about-me{
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: whitesmoke;
   display: flex;
   flex-direction: column;
@@ -459,6 +470,7 @@ selector {
 .about-me > i span{
   padding: 10px;
   font-size: 1rem;
+  font-weight: 100 !important;
   font-family: Arial, Helvetica, sans-serif;
 }
 
