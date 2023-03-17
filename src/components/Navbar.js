@@ -35,6 +35,7 @@ const Navbar = ({width}) => {
     <>
       {width > 1176 ? (
         <div className="nav-side">
+          {console.log(window.location.href)}
           <div className="profile">
           {/* <LoadingSpinner/>            */}
             <div>
