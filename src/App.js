@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 
 const App = () => {
-  const [width, setWidth] = useState(1200);
+  const [width, setWidth] = useState(window.innerWidth);
   const [height, setHeight] = useState(1200);
   useEffect(() => {
     const handleResize = () => {
@@ -24,7 +24,7 @@ const App = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [height , width]);
   return (
     <Router>
       <div className="main-container">

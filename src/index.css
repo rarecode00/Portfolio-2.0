@@ -46,7 +46,7 @@ selector {
 
 :root{
   --nav-head-color: white;
-  --const-color: green;
+  --const-color: orangered;
 }
 
 /* Media Query */
