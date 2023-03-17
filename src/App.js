@@ -30,7 +30,6 @@ const App = () => {
       <div className="main-container">
         <div className="navbar">
           <Navbar width = {width} />
-          {/* <Themes/> */}
         </div>
         <div className="container">
           <Routes>
