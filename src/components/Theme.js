@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useLocation } from 'react-router-dom';
 
 function Theme() {
   const location = useLocation();
-  const [show , setShow] = useState(true);
 
   const handleColor = (color) =>{
      document.documentElement.style.setProperty('--const-color' , color);    
