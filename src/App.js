@@ -6,6 +6,7 @@ import Experience from "./components/Experience";
 import Interest from "./components/Interest";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
+import Theme from "./components/Theme";
 
 const App = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -30,6 +31,7 @@ const App = () => {
       <div className="main-container">
         <div className="navbar">
           <Navbar width = {width} />
+          <Theme/>
         </div>
         <div className="container">
           <Routes>

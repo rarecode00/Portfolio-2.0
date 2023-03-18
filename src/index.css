@@ -811,7 +811,47 @@ hr {
   .theme{
     color: white;
     position: absolute;
-    left:1250px;
+    left:1210px;
     top: 100px;
     z-index: 10000;
   }
+
+  .theme-options{
+     height: 30px;
+     width: inherit;
+     padding: 10px;
+     display: flex;
+     border-radius: 1rem;
+     background-color: #212121;
+  }
+
+  .option{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+
+  .color1{
+    border: 2px solid green !important;
+    background-color: green;
+    margin-right: 5px;
+    box-shadow: 0 0 10px green;
+  }
+
+  .color2{
+    border: 1px solid orangered !important;
+    background-color: orangered;
+    box-shadow: 0 0 10px orangered;
+
+  }
+
+  .color3{
+    border: 1px solid purple !important;
+    background-color: purple;
+    box-shadow: 0 0 10px purple;
+    margin-left: 5px;
+  }
+
+
+ 
+  
