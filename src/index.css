@@ -911,8 +911,8 @@ hr {
   }
 
   .option{
-    height: 30px;
-    width: 30px;
+    height: 22px;
+    width: 22px;
     border-radius: 50%;
     cursor: pointer;
   }
@@ -934,8 +934,8 @@ hr {
 
   .color3{
     border: 1px solid white !important;
-    background-color: blueviolet;
-    box-shadow: 0 0 10px blueviolet;
+    background-color: yellow;
+    box-shadow: 0 0 10px yellow;
     margin-left: 5px;
    animation: glow3 1s ease-in-out infinite alternate;
 
@@ -953,20 +953,20 @@ hr {
 
   @keyframes glow2 {
     0% {
-      box-shadow: 0 0 0 var(--const-color);
+      box-shadow: 0 0 0 red;
     }
     100% {
-      box-shadow: 0 0 15px var(--const-color) ;
+      box-shadow: 0 0 15px red;
       opacity: 1;
     }
   }
 
   @keyframes glow3 {
     0% {
-      box-shadow: 0 0 0 purple;
+      box-shadow: 0 0 0 yellow;
     }
     100% {
-      box-shadow: 0 0 15px purple ;
+      box-shadow: 0 0 15px yellow ;
       opacity: 1;
     }
   }

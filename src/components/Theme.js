@@ -13,7 +13,7 @@ function Theme() {
      <div className={`theme-options`} style = {{display:location.pathname === '/' ? '' : 'none'}}>
         <div className='option color1' onClick={() =>{handleColor('green')}}></div>
         <div className='option color2' onClick={() =>{handleColor('red')}}></div>
-        <div className='option color3' onClick={() =>{handleColor('blueviolet')}}></div>
+        <div className='option color3' onClick={() =>{handleColor('yellow')}}></div>
      </div>
     </div>
   );
